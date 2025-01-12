@@ -2,24 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+#root {
+  height: 100%; /* Asegura que todo el contenido ocupe el 100% de la altura */
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: rgb(0, 0, 0); /* Color de fondo para todo el sitio */
+  color: #ffffff;
+}
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #000000; /* Este es el color bg-gray-100 en Tailwind */
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #7b7c96;
   text-decoration: inherit;
 }
 a:hover {

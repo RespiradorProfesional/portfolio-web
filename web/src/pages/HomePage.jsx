@@ -1,14 +1,38 @@
 import React from 'react';
+import Card_slider from '../components/layout/Card_slider';
+import '../styles/Component.css';
+import Present_home from '../components/layout/Present_home';
+import '../styles/index.css';
+import Chatpresent_home from '../components/layout/Chatpresent_home';
+
+// arreglar el slider en vista movil
 
 const Homepage = () => {
     return (
-        <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-            <div className="text-center">
-                <h1 className="text-4xl font-bold mb-4">Bienvenido a mi página</h1>
-                <p className="text-xl mb-4">¡Aquí encontrarás información sobre mí y mis proyectos!</p>
-                <p className="text-lg">Explora las secciones utilizando el menú de navegación.</p>
-            </div>
-        </div>
+    <div className='contenedor relative'>
+      <div className='sticky top-0 h-screen flex flex-col'>
+        <section className='element_margin'>
+          <h1 className='float'>Néstor Álvarez Pareja</h1>
+          <p className='m-10'>Que te trae por aquí ?</p>
+        </section>
+        <section className='content-center m-20'>
+          <Card_slider />
+        </section>
+      </div>
+      <div className='sticky top-0 h-screen flex flex-col'>
+        <section className='element_margin'>
+          <Present_home />
+        </section>
+        
+        
+      </div>
+      <div className='sticky top-0 h-screen flex flex-col'>
+        
+        <section className='element_margin'>
+          <Chatpresent_home />
+          </section>
+          </div>
+    </div>
     );
 };
 
