@@ -8,7 +8,7 @@ import Content_personal from '../components/tabs_content/Content_Personal';
 import Content_abilities from '../components/tabs_content/Content_Abilities';
 import Content_courses from '../components/tabs_content/Content_Courses';
 
-const tabs_content = [
+const tabs_content_about = [
     { id: "sobre-mi", label: "Sobre Mí", content: <Content_personal /> },
     { id: "habilidades", label: "Habilidades", content: <Content_abilities/> },
     { id: "titulos", label: "Titulos y cursos", content: <Content_courses/> }
@@ -31,7 +31,7 @@ const AboutPage = () => {
                         En esta página encontrarás más detalles sobre mis proyectos y mi experiencia.
                     </p>
                 </div>
-                <Tabs content={tabs_content}/>
+                <Tabs content={tabs_content_about}/>
             </div>
         </div>
     );

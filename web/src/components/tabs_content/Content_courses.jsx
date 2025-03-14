@@ -27,7 +27,6 @@ const Content_courses = () => {
                         </div>
                     </div>
 
-
                 ))}
             </div>
         </div>

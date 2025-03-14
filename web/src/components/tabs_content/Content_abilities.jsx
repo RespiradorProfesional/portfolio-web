@@ -15,6 +15,7 @@ const Content_abilities = () => {
             <h2 className="text-3xl font-bold text-center mb-6">Mis Habilidades</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 {skills.map((skill) => (
+
                     <a href={skill.link} target="_blank" rel="noopener noreferrer" className="block p-4 text-center hover:shadow-xl transition duration-300">
                         <img className="w-16 h-16 mx-auto rounded-full border-2 border-blue-500" src={skill.image} alt={skill.name} />
                         <h3 className="text-xl font-semibold mt-2">{skill.name}</h3>
@@ -25,6 +26,7 @@ const Content_abilities = () => {
                             </div>
                         </div>
                     </a>
+                    
                 ))}
             </div>
         </div>

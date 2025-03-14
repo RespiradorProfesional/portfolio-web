@@ -5,7 +5,7 @@ const Tabs = ({ content }) => {
 
 
     return (
-        <div className="text-center">
+        <div className="text-center  w-full">
             {/* Barra de Tabs */}
             <div className="flex justify-center space-x-4 m-28">
                 {content.map((tab) => (
