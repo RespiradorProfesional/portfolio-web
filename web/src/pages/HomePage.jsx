@@ -30,8 +30,8 @@ const Homepage = () => {
         
         <section className='element_margin'>
           <Chatpresent_home />
-          </section>
-          </div>
+        </section>
+      </div>
     </div>
     );
 };

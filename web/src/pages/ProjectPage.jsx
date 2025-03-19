@@ -21,11 +21,9 @@ const ProjectPage = () => {
             <Header_section title={"Proyectos"}/>
             <div className="flex flex-col items-center justify-center  w-full">
                 <img className="size-64 rounded-full m-14" src="src\assets\images\dcff0ac0-ea78-4454-af10-c91ca344721a.jpg" alt="" />
-
                 <p className="text-lg">
                     En esta página encontrarás más detalles sobre mis proyectos y mi experiencia.
                 </p>
-
                 <Tabs content={tabs_content_projects}/>
             </div>
         </div>
