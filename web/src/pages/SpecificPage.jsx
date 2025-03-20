@@ -42,7 +42,7 @@ const project_data = {
     }]
 }
 
-const ProjectSpecificPage = () => {
+const SpecificPage = () => {
     return (
         <div className='flex flex-col items-center justify-center text-center'>
             <Navbar />
@@ -74,4 +74,4 @@ const ProjectSpecificPage = () => {
     );
 };
 
-export default ProjectSpecificPage;
+export default SpecificPage;

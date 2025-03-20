@@ -1,0 +1,36 @@
+{
+    "common" : {
+        "about_me" : "Sobre mí",
+        "projects" : "Proyectos",
+        "experence" : "Experiencia",
+        "contact" : "Contacto",
+        "read_more" : "Saber más"
+    },
+    "home_page" : {
+        "firts_phrase" : "Que te trae por aquí ?",
+        "aboutme_desc" : "Quieres saber un poco acerca de mí ?, como mis habilidades o cursos",
+        "projects_desc" : "Quieres ver algunos proyectos creados, o tal vez en los que estoy trabajando?",
+        "experence_desc" : "Aquí encontraras toda mi experiencia laboral, con una pequeña línea de tiempo",
+        "contact_desc" :"Necesitas contactar conmigo por cualquier razón ?, accede aquí para ello"
+    },
+    "aboutme_page" : {
+        "rol_about" : "Desarrollador de software y web",
+        "presentation_about" : "¡Hola! un desarrollador apasionado por la creación de aplicaciones web y móviles. Me encanta aprender nuevas tecnologías y mejorar mis habilidades constantemente.",
+        "abilities" : "Habilidades",
+        "titles_and_courses" : "Titulos y cursos",
+        "about_me_title" : "¡Hola! Soy Néstor",
+        "about_me_desc" : "Soy un desarrollador de software apasionado por la tecnología y la creación de experiencias digitales únicas. Me especializo en React, Kotlin y desarrollo de IA.",
+        "purpose_title" : "¿Qué me motiva?",
+        "purpose_desc" : "Me encanta aprender nuevas tecnologías, trabajar en proyectos innovadores y crear aplicaciones que realmente aporten valor. Disfruto especialmente desarrollar videojuegos y explorar la inteligencia artificial."
+    },
+    "projects_page" : {
+        "finished" : "Finished",
+        "in_progress" : "In progress"
+    },
+    "contact_page" : {
+        "name" : "Nombre",
+        "email" : "Correo electrónico",
+        "message" : "Mensaje",
+        "send" : "Enviar"
+    }
+}

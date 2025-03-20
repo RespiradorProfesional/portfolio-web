@@ -19,7 +19,7 @@ const Navbar = () => {
                         <a href="/experience" className="text-white hover:text-gray-300">Experiencia</a>
                     </li>
                     <li>
-                        <a href="#contact" className="text-white hover:text-gray-300">Contacto</a>
+                        <a href="/contact" className="text-white hover:text-gray-300">Contacto</a>
                     </li>
                 </ul>
             </div>

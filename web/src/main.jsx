@@ -6,8 +6,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AboutPage from './pages/AboutPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import ProjectPage from './pages/ProjectPage.jsx'
-import ProjectSpecificPage from './pages/ProjectSpecificPage.jsx'
+import SpecificPage from './pages/SpecificPage.jsx'
 import ExperiencePage from './pages/ExperiencePage.jsx'
+import ContactPage from './pages/ContactPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,8 +28,17 @@ const router = createBrowserRouter([
     element: <ExperiencePage />
   },
   {
+    path: '/contact',
+    element: <ContactPage />
+  },
+  {
     path: '/projects/:id',
-    element: <ProjectSpecificPage />
+    element: <SpecificPage />
+  },
+  ,
+  {
+    path: '/experience/:id',
+    element: <SpecificPage />
   }
 ]);
 

@@ -28,21 +28,18 @@ const Card_slider = () => {
                 <Card_home 
                 title="Tecnología que cambia el mundo"
                 description="Aquí exploramos las tecnologías que han transformado la industria."
-                imageUrl="/images/tech.jpg" 
             />
                 </div>
                 <div>
                 <Card_home 
                 title="e que cambia el mundo"
                 description="Aquí exploramos las tecnologías que han transformado la industria."
-                imageUrl="/images/tech.jpg" 
             />
                 </div>
                 <div>
                 <Card_home 
                 title="aaaaa que cambia el mundo"
                 description="Aquí exploramos las tecnologías que han transformado la industria."
-                imageUrl="/images/tech.jpg" 
             />
                 </div>
             </Slider>

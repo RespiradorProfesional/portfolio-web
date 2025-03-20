@@ -33,7 +33,7 @@ const ExperiencePage = () => {
                     className={`relative flex items-center w-full ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}
                     >
                         {/* Tarjeta del evento */}
-                        <a className={`bg-white p-4 rounded-lg shadow-md border w-64 transition-all duration-300 hover:scale-105
+                        <a  href='/experience/1' className={`cursor-pointer bg-white p-4 rounded-lg shadow-md border w-64 transition-all duration-300 hover:scale-105
                             ${index % 2 === 0 ? 'ml-72 text-left' : 'mr-72 text-right'}`}>
                             <h3 className="text-lg font-semibold">{event.title}</h3>
                             <p className="text-sm text-gray-500">{event.description}</p>

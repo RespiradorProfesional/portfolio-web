@@ -1,0 +1,36 @@
+{
+    "common": {
+        "about_me": "About me",
+        "projects": "Projects",
+        "experence": "Experience",
+        "contact": "Contact",
+        "read_more": "Read more"
+    },
+    "home_page": {
+        "firts_phrase": "What brings you here?",
+        "aboutme_desc": "Want to know a bit about me? Like my skills or courses",
+        "projects_desc": "Want to see some projects I've created, or maybe the ones I'm working on?",
+        "experence_desc": "Here you will find all my work experience, with a small timeline",
+        "contact_desc": "Need to contact me for any reason? Access here to do so"
+    },
+    "aboutme_page": {
+        "rol_about": "Software and Web Developer",
+        "presentation_about": "Hello! A developer passionate about creating web and mobile applications. I love learning new technologies and constantly improving my skills.",
+        "abilities": "Skills",
+        "titles_and_courses": "Titles and courses",
+        "about_me_title": "Hello! I'm Néstor",
+        "about_me_desc": "I am a software developer passionate about technology and creating unique digital experiences. I specialize in React, Kotlin, and AI development.",
+        "purpose_title": "What motivates me?",
+        "purpose_desc": "I love learning new technologies, working on innovative projects, and creating applications that truly add value. I especially enjoy developing video games and exploring artificial intelligence."
+    },
+    "projects_page": {
+        "finished": "Finished",
+        "in_progress": "In progress"
+    },
+    "contact_page": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+    }
+}
